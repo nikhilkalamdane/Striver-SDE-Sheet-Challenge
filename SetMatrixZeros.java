@@ -31,7 +31,7 @@ public class SetMatrixZeros {
         }
         
         for(int i = mat.length - 1; i >= 0; i--){
-            for(int j = mat[i].length - 1; j >= 0; j--){
+            for(int j = mat[i].length - 1; j >= 1; j--){
                 if(mat[i][0] == 0 || mat[0][j] == 0){
                     mat[i][j] = 0;
                 }
