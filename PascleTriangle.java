@@ -23,6 +23,6 @@ public class PascleTriangle {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         pascleTriangle(N);
-
+        sc.close();
     }
 }

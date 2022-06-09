@@ -60,5 +60,6 @@ public class SetMatrixZeros {
             setZeros(matrix);
             
         }
+        sc.close();
     }
 }

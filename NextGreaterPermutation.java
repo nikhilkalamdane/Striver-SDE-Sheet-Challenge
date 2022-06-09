@@ -53,5 +53,6 @@ public class NextGreaterPermutation {
             System.out.println(nextPermutation(list));
             T--;
         }
+        sc.close();
     }
 }
